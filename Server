@@ -1,2 +1,13 @@
 cd server
 npm init -y
+npm install express mongoose cors dotenv bcryptjs jsonwebtoken multer cloudinary socket.io
+server/
+│
+├── models
+├── routes
+├── middleware
+├── controllers
+├── uploads
+├── .env
+├── package.json
+└── server.js
